@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'seat',
     'serv',
     'mpage',
+    'join',
 ]
 
 MIDDLEWARE = [

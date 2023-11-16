@@ -15,5 +15,5 @@ def seatpage(request) :
 def loginpage(request) :
     return render(request, 'mpage/login.html')
 
-
-# Create your views here.
+def joinpage(request) :
+    return render(request, 'mpage/join.html')

@@ -17,6 +17,6 @@ def loginpage(request) :
 
 def joinpage(request) :
     return render(request, 'mpage/join.html')
-
+from django.shortcuts import render
 
 # Create your views here.
